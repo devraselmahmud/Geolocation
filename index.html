@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Check Location and Battery</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Click the button below to check</h1>
+      <button class="btn" onclick="getLocation()">Allow Location</button>
+      <p id="location">...</p>
+      <p id="address">...</p>
+    </div>
+    <div></div>
+    <!-- Battery Container -->
+    <div class="container">
+      <h1>Battery Status</h1>
+      <button class="btn" onclick="getBatteryStatus()">Check Battery Status</button>
+      <p id="batteryStatus">Press the button above to check battery status...</p>
+    </div>
+  </body>
+</html>
